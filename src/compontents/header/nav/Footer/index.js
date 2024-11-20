@@ -1,6 +1,6 @@
 import styles from './style.module.scss';
 import { translate } from '../../anim';
-import { motion } from 'framer-motion';
+import { color, motion } from 'framer-motion';
 
 export default function Footer() {
     return (
@@ -10,8 +10,9 @@ export default function Footer() {
                     custom={[0.3, 0]} 
                     variants={translate} initial="initial" 
                     animate="enter" 
-                    exit="exit">
-                    <span>Made by:</span> <a target="_blank" href='https://linktr.ee/voidzai'>VoidZai</a> & <a target="_blank" href='https://github.com/MuzzammilAfridi'>Muzzamil</a>
+                    exit="exit"
+                    className={styles.devs}>
+                    <span>Made by:</span> <a target="_blank" href='https://linktr.ee/voidzai' >VoidZai</a> & <a target="_blank" href='https://muzzammilafridi.github.io/Internalpha2/'>Muzzammil</a>
                 </motion.li>
             </ul>
 {/*             <ul>
