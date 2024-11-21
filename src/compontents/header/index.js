@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-export default function index() {
+export default function Header() {
 
     const [isActive, setIsActive] = useState(false);
 
