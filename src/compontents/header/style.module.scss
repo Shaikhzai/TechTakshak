@@ -1,13 +1,13 @@
 .header{
-    background-color: #43214B ;
-    opacity: 0.8;
+    background-color: #300025 ;
+    opacity: 1;
     position: fixed;
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
 
     .background{
-        background-color: #43214B ;
+        background-color: #300025 ;
         opacity: 0.5;
         height: 100%;
         width: 100%;
@@ -30,7 +30,7 @@
 
         a{
             text-decoration: none;
-            color: black;
+            color: #a183a4;
             position: absolute;
             left: 0;
         }
@@ -40,10 +40,10 @@
             gap: 30px;
             position: absolute;
             right: 0;
-            color: black;
+            color: #a183a4;
             .shop{
                 display: none;
-                color: black;
+                color: #a183a4;
             }
         }
 
@@ -53,13 +53,13 @@
             justify-content: center;
             gap: 8px;
             cursor: pointer;
-            color: black;
+            color: #a183a4;
 
             .label{
                 position: relative;
                 display: flex;
                 align-items: center;
-                color: black;
+                color: #a183a4;
             }
 
             p{
@@ -78,7 +78,7 @@
                     content: "";
                     height: 1px;
                     width: 100%;
-                    background-color: black;
+                    background-color: #a183a4;
                     position: relative;
                     display: block;
                     transition: all 1s cubic-bezier(0.76, 0, 0.24, 1);

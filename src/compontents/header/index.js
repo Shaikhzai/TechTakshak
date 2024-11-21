@@ -14,7 +14,7 @@ export default function index() {
     return (
         <div className={styles.header}>
             <div className={styles.bar}>
-                <Link href="/">LOGO</Link>
+                <Link href="/">TECH TAKSHAK</Link>
                 <div onClick={() => {setIsActive(!isActive)}} className={styles.el}>
                     <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}></div>
                     <div className={styles.label}>
@@ -26,9 +26,9 @@ export default function index() {
                     <p className={styles.shop}>Events</p>
                     <div className={styles.el}>
                     <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="9.5" cy="10" r="8" stroke="#000000" strokeWidth="1.5" />
-                        <line x1="9.5" y1="10" x2="9.5" y2="5.5" stroke="#000000" strokeWidth="1.5" strokeLinecap="round" />
-                        <line x1="9.5" y1="10" x2="13" y2="10" stroke="#000000" strokeWidth="1.5" strokeLinecap="round" />
+                        <circle cx="9.5" cy="10" r="8" stroke="#a183a4" strokeWidth="1.5" />
+                        <line x1="9.5" y1="10" x2="9.5" y2="5.5" stroke="#a183a4" strokeWidth="1.5" strokeLinecap="round" />
+                        <line x1="9.5" y1="10" x2="13" y2="10" stroke="#a183a4" strokeWidth="1.5" strokeLinecap="round" />
                     </svg>
                     <p>Timline</p>
                     </div>
