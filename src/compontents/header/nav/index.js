@@ -15,7 +15,7 @@ const links = [
   },
   {
     title: "Events",
-    href: "/events",
+    href: "/eventlist",
     src: "shop.png"
   },
   {
