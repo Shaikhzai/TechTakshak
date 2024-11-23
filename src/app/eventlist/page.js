@@ -12,6 +12,9 @@ export default function Home() {
         <Double projects={[projects[2], projects[3]]} reversed={true}/>
         <Double projects={[projects[4], projects[5]]}/>
         <Double projects={[projects[6], projects[7]]} reversed={true}/>
+        <Double projects={[projects[8], projects[9]]} reversed={true}/>
+        <Double projects={[projects[10], projects[11]]} reversed={true}/>
+        <Double projects={[projects[12], projects[13]]} reversed={true}/>
       </div>
     </div>
   )
