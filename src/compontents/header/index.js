@@ -23,14 +23,20 @@ export default function Header() {
                     </div>
                 </div>
                 <motion.div variants={opacity} animate={!isActive ? "open" : "closed"} className={styles.shopContainer}>
-                    <p className={styles.shop}>Events</p>
                     <div className={styles.el}>
                     <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="9.5" cy="10" r="8" stroke="#a183a4" strokeWidth="1.5" />
-                        <line x1="9.5" y1="10" x2="9.5" y2="5.5" stroke="#a183a4" strokeWidth="1.5" strokeLinecap="round" />
-                        <line x1="9.5" y1="10" x2="13" y2="10" stroke="#a183a4" strokeWidth="1.5" strokeLinecap="round" />
+                        <rect x="1" y="1" width="17" height="18" rx="2" ry="2" stroke="#a183a4" strokeWidth="1.5" fill="none"/>
+  
+                         <line x1="3" y1="5" x2="16" y2="5" stroke="#a183a4" strokeWidth="1.5" strokeLinecap="round" />
+                         <line x1="3" y1="8" x2="14" y2="8" stroke="#a183a4" strokeWidth="1.5" strokeLinecap="round" />
+                         <line x1="3" y1="11" x2="16" y2="11" stroke="#a183a4" strokeWidth="1.5" strokeLinecap="round" />
+                         <line x1="3" y1="14" x2="12" y2="14" stroke="#a183a4" strokeWidth="1.5" strokeLinecap="round" />
                     </svg>
-                    <p>Timline</p>
+                    <Link href="/eventlist">
+                    
+                    <p className={styles.invisi}>Events</p>
+                    </Link>
+
                     </div>
                 </motion.div>
             </div>

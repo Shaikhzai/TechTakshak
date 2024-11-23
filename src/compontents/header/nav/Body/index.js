@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import styles from './style.module.scss';
-import { blur, translate } from '../../anim';
+import { blur, opacity, translate } from '../../anim';
 
-export default function Body({links, selectedLink, setSelectedLink}) {
+export default function Body({links, selectedLink, setSelectedLink, setIsActive}) {
 
     const getChars = (word) => {
         let chars = [];
@@ -27,7 +27,7 @@ export default function Body({links, selectedLink, setSelectedLink}) {
         {
             links.map( (link, index) => {
                 const { title, href } = link;
-                return <Link key={`l_${index}`} href={href}>
+                return <motion.a key={`l_${index}`} href={href} onClick={() => setIsActive(false)} variants={opacity} animate={setIsActive!=true? "close" : "close"}>
                 <motion.p 
                     onMouseOver={() => {setSelectedLink({isActive: true, index})}} 
                     onMouseLeave={() => {setSelectedLink({isActive: false, index})}} 
@@ -35,7 +35,7 @@ export default function Body({links, selectedLink, setSelectedLink}) {
                     animate={selectedLink.isActive && selectedLink.index != index ? "open" : "closed"}>
                     {getChars(title)}
                 </motion.p>
-                </Link>
+                </motion.a>
             })
         }
         </div>
