@@ -47,11 +47,13 @@ export default function Index({projects, reversed}) {
   
         <div ref={firstImage} className={styles.imageContainer}>
           <div className={styles.stretchyWrapper}>
+             <a href={projects[0].href} target='_blank'>
               <Image 
                 src={`/images/EventList_assets/${projects[0].src}`}
                 fill={true}
                 alt={"image"}
               />
+             </a>
           </div>
           <div className={styles.body}>
               <h3>{projects[0].name}</h3>
@@ -62,11 +64,13 @@ export default function Index({projects, reversed}) {
   
         <div ref={secondImage} className={styles.imageContainer}>
           <div className={styles.stretchyWrapper}>
+          <a href={projects[1].href} target='_blank'> 
           <Image 
               src={`/images/EventList_assets/${projects[1].src}`}
               fill={true}
               alt={"image"}
             />
+           </a>  
           </div>
 
           <div className={styles.body}>

@@ -19,15 +19,15 @@ const links = [
     src: "1.png"
   },
   {
-    title: "About Us",
-    href: "/about",
-    src: "home.png"
-  },
-  {
     title: "Contact",
     href: "/contact",
     src: "contact.png"
-  }
+  },
+  {
+    title: "Regester",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSeBQ-B3KzTAtPIPn3oXv8j5e7eTuiHlLbLpQjqf9hemrYKUUw/viewform",
+    src: "home.png"
+  },
 ]
 
 export default function Index({ setIsActive }) {
