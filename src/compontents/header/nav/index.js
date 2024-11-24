@@ -11,12 +11,12 @@ const links = [
   {
     title: "Home",
     href: "/",
-    src: "home.png"
+    src: "2.png"
   },
   {
     title: "Events",
     href: "/eventlist",
-    src: "shop.png"
+    src: "1.png"
   },
   {
     title: "About Us",

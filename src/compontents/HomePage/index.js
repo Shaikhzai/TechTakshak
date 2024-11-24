@@ -33,7 +33,7 @@ export default function Home() {
         <div className={styles.textContainer}>
           <p>
             Welcome to the most awaited tech fest of the year! Explore our{' '}
-            <a href="#" className={styles.animatedLink}>events</a>{' '}
+            <a href="/eventlist">events</a>{' '}
             and create unforgettable memories.
           </p>
         </div>
