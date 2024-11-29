@@ -21,7 +21,7 @@ const links = [
   {
     title: "Contact",
     href: "/contact",
-    src: "contact.png"
+    src: "qrcode.png"
   },
   {
     title: "Regester",
