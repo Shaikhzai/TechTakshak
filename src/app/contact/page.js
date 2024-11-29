@@ -1,8 +1,12 @@
 import React from 'react'
 
+import styles from './style.module.scss'
+
 const page = () => {
   return (
-    <div>page</div>
+    <div className={styles.main}>
+      balh
+    </div>
   )
 }
 

@@ -33,7 +33,7 @@ export default function Home() {
         <div className={styles.textContainer}>
           <p>
             Welcome to the most awaited tech fest of the year! Explore our{' '}
-            <a href="/eventlist">events</a>{' '}
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBQ-B3KzTAtPIPn3oXv8j5e7eTuiHlLbLpQjqf9hemrYKUUw/viewform">events</a>{' '}
             and create unforgettable memories.
           </p>
         </div>

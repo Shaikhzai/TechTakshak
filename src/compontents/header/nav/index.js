@@ -26,7 +26,7 @@ const links = [
   {
     title: "Regester",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeBQ-B3KzTAtPIPn3oXv8j5e7eTuiHlLbLpQjqf9hemrYKUUw/viewform",
-    src: "home.png"
+    src: "register.png"
   },
 ]
 
