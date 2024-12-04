@@ -27,7 +27,7 @@ export default function Body({links, selectedLink, setSelectedLink, setIsActive}
         {
             links.map( (link, index) => {
                 const { title, href } = link;
-                return <motion.a key={`l_${index}`} href={href} onClick={() => setIsActive(false)} variants={opacity} animate={setIsActive!=true? "close" : "close"}>
+                return <motion.a key={`l_${index}`} href={href} target='_blank' onClick={() => setIsActive(false)} variants={opacity} animate={setIsActive!=true? "close" : "close"}>
                 <motion.p 
                     onMouseOver={() => {setSelectedLink({isActive: true, index})}} 
                     onMouseLeave={() => {setSelectedLink({isActive: false, index})}} 

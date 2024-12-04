@@ -32,7 +32,7 @@ export default function Header() {
                          <line x1="3" y1="11" x2="16" y2="11" stroke="#a183a4" strokeWidth="1.5" strokeLinecap="round" />
                          <line x1="3" y1="14" x2="12" y2="14" stroke="#a183a4" strokeWidth="1.5" strokeLinecap="round" />
                     </svg>
-                    <Link href="/eventlist">
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeBQ-B3KzTAtPIPn3oXv8j5e7eTuiHlLbLpQjqf9hemrYKUUw/viewform" target='_blank'>
                     
                     <p className={styles.invisi}>Events</p>
                     </Link>
