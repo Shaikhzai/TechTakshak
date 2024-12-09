@@ -19,12 +19,12 @@ const links = [
     src: "1.png"
   },
   {
-    title: "Find Us",
+    title: "Location",
     href: "https://www.google.com/maps/dir//KNS+Institute+of+Technology+Hegde+Nagar,+Kogilu+Road,+Yelahanka+Hobli,+Thirumenahalli,+Bengaluru,+Karnataka+560064/@13.0891413,77.5535456,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae16773c548eed:0xcd4b729be0f2d120!2m2!1d77.6359475!2d13.0891544?entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D",
     src: "qrcode.png"
   },
   {
-    title: "Regester",
+    title: "Register",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeBQ-B3KzTAtPIPn3oXv8j5e7eTuiHlLbLpQjqf9hemrYKUUw/viewform",
     src: "register.png"
   },
